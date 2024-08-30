@@ -1,7 +1,7 @@
 export const LoadData = async () => {
 
 
-function extrairDominio(url) {
+function extrairDominio(url: string) {
   let dominio = url.replace(/(^\w+:|^)\/\//, ''); // Remove http:// ou https://
   dominio = dominio.replace(/^www\./, '');       // Remove www.
   dominio = dominio.split('/')[0];                // Remove caminho e parâmetros

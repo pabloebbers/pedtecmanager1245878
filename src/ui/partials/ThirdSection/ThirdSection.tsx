@@ -26,7 +26,7 @@ const ThirdSection = (props: ThirdSectionProps) => {
           >
             <h2 className="titulo">{props.ThirdSectionTitle}</h2>
             <p dangerouslySetInnerHTML={{ __html: props.ThirdSectionText }} />
-            {props.FirstSectionButtonTxt && (
+            {props.ThirdSectionButtonTxt && (
             <Button 
             buttonTxt={props.ThirdSectionButtonTxt}
             ButtonBackground={props.ThirdSectionButtonColor}

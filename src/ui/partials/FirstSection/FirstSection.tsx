@@ -1,7 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { FirstSectionContainer } from "../../styles/FirstSection/FirstSection.styles";
 import { FirstSectionProps } from "../../../data/@types/FirstSection/FirstSection.type";
-import { FaWhatsapp } from "react-icons/fa";
 import RenderYoutubeVideoOrImage from "../../components/RenderYoutubeVideoOrImage/RenderYoutubeVideoOrImage";
 import Button from "../../components/Button/Button";
 import SocialButtons from "../../components/SocialButtons/SocialButtons";
@@ -10,10 +9,12 @@ const FirstSection = (props: FirstSectionProps) => {
   console.log(props);
   return (
     <FirstSectionContainer
-      FirstSectionTitleColor={props.FirstSectionTitleColor}
-      FirstSectionTextColor={props.FirstSectionTextColor}
-      FirstSectionBackground={props.FirstSectionBackground}
-      id="firstsection"
+    FirstSectionTitleColor={props.FirstSectionTitleColor}
+    FirstSectionTextColor={props.FirstSectionTextColor}
+    FirstSectionBackground={props.FirstSectionBackground}
+    FirstSectionButtonColor={props.FirstSectionButtonColor}         // Adicionando essa linha
+    FirstSectionButtonTextColor={props.FirstSectionButtonTextColor} // Adicionando essa linha
+    id="firstsection"
     >
       <Container fluid>
         <Row className="align-items-center justify-content-center">
