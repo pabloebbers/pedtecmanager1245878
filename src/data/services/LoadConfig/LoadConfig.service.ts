@@ -56,7 +56,7 @@ const urlAtual = window.location.href; // Obtém a URL da página atual
 const dominioAtual = extrairDominio(urlAtual);
 console.log("Domínio atual extraído:", dominioAtual);
     //const res = await fetch("./config.json", {
-    const res = await fetch("https://app.pedtech.com.br/v1/pedtech/getByDominio/"+dominioAtual, {  // substitua pela URL da API
+    const res = await fetch("https://api.pedtech.com.br/v1/pedtech/getByDominio/"+dominioAtual, {  // substitua pela URL da API
       headers: {
         Accept: "application/json",
         Authorization: `Bearer ${token}`,
