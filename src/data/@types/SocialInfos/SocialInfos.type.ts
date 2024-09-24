@@ -14,7 +14,6 @@ export type SocialInfosType = {
     TwitterUser?: string | undefined;
     TelefoneActive: boolean | undefined;
     TelefoneNumber?: string | undefined;
-<<<<<<< HEAD
 
 
     GoogleTag?: string | undefined,
@@ -25,6 +24,4 @@ export type SocialInfosType = {
     FacebookTagSection2?: string | undefined,
     GoogleTagSection3?: string | undefined,
     FacebookTagSection3?: string | undefined,
-=======
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
 };

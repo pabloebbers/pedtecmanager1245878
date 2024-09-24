@@ -6,10 +6,7 @@ import { FooterProps } from "../../../data/@types/Footer/Footer.type";
 const Footer = (props: FooterProps) => {
   return (
     <FooterContainer
-<<<<<<< HEAD
       id="footer"
-=======
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
       FooterBackground={props.FooterBackground}
       FooterTextColors={props.FooterTextColors}
     >
@@ -37,11 +34,7 @@ const Footer = (props: FooterProps) => {
             ></iframe>
           </Col>
           <Col xs={12} md={6} xl={4}>
-<<<<<<< HEAD
             <h3>Links</h3>
-=======
-            <h3>Link</h3>
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
             <SocialButtons
               FacebookActive={props.FooterFacebookActive}
               InstagramActive={props.FooterInstagramActive}

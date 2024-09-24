@@ -3,7 +3,6 @@ import RenderYoutubeVideoOrImage from "../../components/RenderYoutubeVideoOrImag
 import { Col, Container, Row } from "react-bootstrap";
 import { SecondSectionContainer } from "../../styles/SecondSection/SecondSection.styles";
 import Button from "../../components/Button/Button";
-<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 
 const SecondSection = (props: SecondSectionProps) => {
@@ -20,10 +19,6 @@ const SecondSection = (props: SecondSectionProps) => {
     });
   };
 
-=======
-
-const SecondSection = (props: SecondSectionProps) => {
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
   if (!props.SecondSectionTitle) {
     return null;
   }
@@ -53,27 +48,17 @@ const SecondSection = (props: SecondSectionProps) => {
           >
             <h2 className="titulo" >{props.SecondSectionTitle}</h2>
             <p dangerouslySetInnerHTML={{ __html: props.SecondSectionText }} />
-<<<<<<< HEAD
 
 
-=======
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
             {props.SecondSectionButtonTxt && (
             <Button
               buttonTxt={props.SecondSectionButtonTxt}
               ButtonBackground={props.SecondSectionButtonColor}
-<<<<<<< HEAD
               ButtonTextColor={props.SecondSectionButtonTextColor}
               onClick={handleButtonClick}
             />
             )}
 
-=======
-              ButtonHref={props.SecondSectionButtonHref}
-              ButtonTextColor={props.SecondSectionButtonTextColor}
-            />
-            )}
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
           </Col>
         </Row>
       </Container>

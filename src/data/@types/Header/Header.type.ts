@@ -6,13 +6,10 @@ export type HeaderProps = {
   HeaderbgColorOnScroll: string;
   HeaderLinksColorOnScroll: string;
   HeaderLinkColor: string;
-<<<<<<< HEAD
   logo: string,
   favicon: string,
   titulo: string,
   divider: string;
-=======
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
 };
 
 export type HeaderColorsType = {
@@ -22,12 +19,9 @@ export type HeaderColorsType = {
   Font1: string,
   Font2: string,
   Font3: string,
-<<<<<<< HEAD
   titulo: string,
 
   logo: string,
   favicon: string,
   divider: string;
-=======
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
 };

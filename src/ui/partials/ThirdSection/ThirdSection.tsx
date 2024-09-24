@@ -3,7 +3,6 @@ import { ThirdSectionContainer } from "../../styles/ThirdSection/ThirdSection.st
 import { ThirdSectionProps } from "../../../data/@types/ThirdSection/ThirdSection.type";
 import RenderYoutubeVideoOrImage from "../../components/RenderYoutubeVideoOrImage/RenderYoutubeVideoOrImage";
 import Button from "../../components/Button/Button";
-<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 
 const ThirdSection = (props: ThirdSectionProps) => {
@@ -20,11 +19,6 @@ const ThirdSection = (props: ThirdSectionProps) => {
     });
   };
 
-=======
-
-const ThirdSection = (props: ThirdSectionProps) => {
-
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
   if (!props.ThirdSectionTitle) {
     return null;
   }
@@ -50,11 +44,7 @@ const ThirdSection = (props: ThirdSectionProps) => {
             buttonTxt={props.ThirdSectionButtonTxt}
             ButtonBackground={props.ThirdSectionButtonColor}
             ButtonTextColor={props.ThirdSectionButtonTextColor}
-<<<<<<< HEAD
             onClick={handleButtonClick}
-=======
-            ButtonHref={props.ThirdSectionButtonHref}
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
             />
             )}
           </Col>

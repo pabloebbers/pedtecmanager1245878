@@ -7,7 +7,6 @@ const Button = (props: ButtonProps) => {
       ButtonBackground={props.ButtonBackground}
       ButtonTextColor={props.ButtonTextColor}
       className="d-flex justify-content-center mt-3"
-<<<<<<< HEAD
       style={{ borderRadius: ".25rem" }} // Ajuste do border-radius
     >
       <a href={props.ButtonHref}>
@@ -22,13 +21,6 @@ const Button = (props: ButtonProps) => {
         >
           {props.children}
           <span><b>{props.buttonTxt}</b></span>
-=======
-    >
-      <a href={props.ButtonHref}>
-        <button className=" d-flex align-items-center">
-          {props.children}
-          <span>{props.buttonTxt}</span>
->>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
         </button>
       </a>
     </ButtonContainer>
