@@ -4,7 +4,10 @@ import SecondSection from "../ui/partials/SecondSection/SecondSection";
 import Footer from "../ui/partials/Footer/Footer";
 import { PageProps } from "../data/@types/Page/Page.type";
 import ThirdSection from "../ui/partials/ThirdSection/ThirdSection";
+<<<<<<< HEAD
 import Divider from "../ui/components/Divider";
+=======
+>>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
 
 const Home = (props: PageProps) => {
   return (
@@ -14,10 +17,14 @@ const Home = (props: PageProps) => {
         HeaderLinksColorOnScroll={props.HeaderLinksColorOnScroll}
         HeaderLinks={props.HeaderLinks}
         HeaderLinkColor={props.HeaderLinkColor}
+<<<<<<< HEAD
         logo={props.logo}
         favicon={props.favicon}
         titulo={props.titulo} 
         divider={props.divider}      />
+=======
+      />
+>>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
       <main>
         <FirstSection
           FirstSectionBackground={props.FirstSectionBackground}
@@ -29,9 +36,18 @@ const Home = (props: PageProps) => {
           FirstSectionYoutubeLink={props.FirstSectionYoutubeLink}
           FirstSectionImageSrc={props.FirstSectionImageSrc}
           FirstSectionButtonHref={props.FirstSectionButtonHref}
+<<<<<<< HEAD
           FirstSectionButtonTxt={props.FirstSectionButtonTxt}
           FirstSectionButtonColor={props.FirstSectionButtonColor}
           FirstSectionButtonTextColor={props.FirstSectionButtonTextColor}
+=======
+
+          FirstSectionButtonTxt={props.FirstSectionButtonTxt}
+          FirstSectionButtonColor={props.FirstSectionButtonColor}
+          FirstSectionButtonTextColor={props.FirstSectionButtonTextColor}
+
+
+>>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
           color={props.color}
           WhatsappActive={props.WhatsappActive}
           WhatsappNumber={props.WhatsappNumber}
@@ -48,9 +64,12 @@ const Home = (props: PageProps) => {
           YoutubeActive={props.YoutubeActive}
           YoutubeUser={props.YoutubeUser}
         />
+<<<<<<< HEAD
 
 <Divider className="divider-class" color={props.divider} />
 
+=======
+>>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
         <SecondSection
           SecondSectionBackground={props.SecondSectionBackground}
           SecondSectionHasImageOrVideo={props.SecondSectionHasImageOrVideo}
@@ -65,9 +84,12 @@ const Home = (props: PageProps) => {
           SecondSectionButtonHref={props.SecondSectionButtonHref}
           SecondSectionButtonTextColor={props.SecondSectionButtonTextColor}
         />
+<<<<<<< HEAD
 
 <Divider className="divider-class" color={props.divider} />
 
+=======
+>>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
         <ThirdSection
           ThirdSectionBackground={props.ThirdSectionBackground}
           ThirdSectionTitle={props.ThirdSectionTitle}
@@ -83,9 +105,12 @@ const Home = (props: PageProps) => {
           ThirdSectionButtonTextColor={props.ThirdSectionButtonTextColor}
         />
       </main>
+<<<<<<< HEAD
 
       <Divider className="divider-class" color={props.divider} />
 
+=======
+>>>>>>> b3aa649c6754ecaeeaf62c41fc84a58551560920
       <Footer
         FooterAdress={props.FooterAdress}
         FooterBackground={props.FooterBackground}
