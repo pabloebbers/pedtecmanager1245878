@@ -1,0 +1,109 @@
+{
+  "HeaderLinks": [
+    { "title": "Home", "href": "#firstsection" },
+    { "title": "Funcionalidades", "href": "#secondsection" },
+    { "title": "Planos", "href": "#thirdsection" },
+    { "title": "Nossos Links", "href": "#footer" }
+  ],
+  "HeaderColors": {
+    "Font1": "#fff",
+    "Font2": "#fff",
+    "Font3": "#fff",
+    "HeaderLinkColor": "#fff",
+    "HeaderbgColorOnScroll": "#0d8bd9",
+    "HeaderLinksColorOnScroll": "#fff"
+  },
+  "FirstSectionColors": {
+    "FirstSectionTitleColor": "#0d8bd9",
+    "FirstSectionTextColor": "#0d8bd9",
+    "FirstSectionBackground": " rgb(255, 255, 255) linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(91, 147, 206, 1) 100%);",
+    "FirstSectionButtonColor": "#000",
+    "FirstSectionButtonTextColor": "#fff"
+  },
+  "FirstSectionContents": {
+    "FirstSectionTitle": "Seus pedidos do Whatsapp impressos automaticamente.",
+    "FirstSectionText": "Apresente seu cardápio de forma rápida e prática para que seu cliente realize o pedido, tenha o pedido na plataforma e impresso sem erros automaticamente.",
+    "FirstSectionYoutubeLink": "https://www.youtube.com/UY_gdjGtO7s?si=VSN-uUgwuwGbB2wm",
+    "FirstSectionHasImageOrVideo": "video",
+    "FirstSectionImageSrc": null,
+    "FirstSectionButtonHref": "https://api.whatsapp.com/send?1=pt_BR&phone=5511963697271",
+    "FirstSectionButtonTxt": "Contrate Agora!!"
+  },
+  "SocialInfos": {
+    "color": "preto",
+    "WhatsappActive": true,
+    "WhatsappNumber": "11963697271",
+    "InstagramActive": true,
+    "InstagramUser": "techunionti",
+    "FacebookActive": true,
+    "FacebookUser": "techunionti",
+    "TechsappActive": true,
+    "TechsappLink": "https://techgourmet.com.br/techsapppadrao",
+    "TelefoneActive": false,
+    "TelefoneNumber": "11963697271",
+    "TwitterActive": false,
+    "TwitterUser": "TechUnion_TI",
+    "YoutubeActive": true,
+    "YoutubeUser": "TechUnionSolucoesEmTI"
+  },
+  "SecondSectionColors": {
+    "SecondSectionBackground": "#0d8bd9",
+    "SecondSectionTitleColor": "#fff",
+    "SecondSectionTextColor": "#fff",
+    "SecondSectionButtonColor": "#000",
+    "SecondSectionButtonTextColor": "#fff"
+  },
+  "SecondSectionContents": {
+    "SecondSectionHasImageOrVideo": "video",
+    "SecondSectionImageSrc": null,
+    "SecondSectionYoutubeLink": "https://youtu.be/AQQz6xe2g1o",
+    "SecondSectionTitle": "teste",
+    "SecondSectionText": "Resposta automática com link do cardápio. <br/> Cálculo da taxa de entrega por KM, Bairro ou valor fixo. <br/> Impressão automática dos pedidos. <br/> Relatório de vendas e clientes. <br/> Acesso total para edição do cardápio. <br/> E muito mais...",
+    "SecondSectionButtonTxt": "Cardápio Demonstração",
+    "SecondSectionButtonHref": "https://techgourmet.com.br/techsapppadrao"
+  },
+  "ThirdSectionColors": {
+    "ThirdSectionBackground": "rgb(91, 147, 206) linear-gradient(0deg, rgba(91, 147, 206, 1) 0%, rgba(95, 189, 121, 1) 100%)",
+    "ThirdSectionTextColor": "#fff",
+    "ThirdSectionTitleColor": "#fff",
+    "ThirdSectionButtonColor": "#fff",
+    "ThirdSectionButtonTextColor": "#000"
+  },
+  "ThirdSectionContent": {
+    "ThirdSectionTitle": "Nossos Planos",
+    "ThirdSectionHasImageOrVideo": "image",
+    "ThirdSectionImageSrc": "/img.webp",
+    "ThirdSectionYoutubeLink": null,
+    "ThirdSectionText": "<b>Smart</b>: <br/> Plano Gratuito para conhecer os recursos do Techsapp <br/> <b> Advanced </b>: <br/> Plano para automatizar seu delivery e fidelizar clientes. <br/> <b> Premium </b>: <br/> Neste plano além de automatizar seu delivery tambem é possivel gerenciar as mesas e atendentes.",
+    "ThirdSectionButtonTxt": "Contrate Agora!",
+    "ThirdSectionButtonHref": "https://www.techsapp.com.br/cadastro_i.php"
+  },
+  "FooterContent": {
+    "FooterHorario": "Segunda à Sexta das 8:00 às 20:00",
+    "FooterEmail": "contato@techsapp.com.br",
+    "FooterAdress": "Rua Belem, 415 - Sala 13",
+    "FooterPhone": "(11) 9 6369-7271",
+    "FooterMapsSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.132669741966!2d-46.595117!3d-23.5403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce592c9212877b%3A0x89130e858ee2e72b!2sR.%20Bel%C3%A9m%2C%20415%20-%20Belenzinho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003057-010!5e0!3m2!1spt-BR!2sbr!4v1711032882061!5m2!1spt-BR!2sbr"
+  },
+  "FooterColors": {
+    "FooterTextColors": "#000",
+    "FooterBackground": "rgb(255, 255, 255) linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(91, 147, 206, 1) 100%)"
+  },
+  "LinksFooter": {
+    "Footercolor": "preto",
+    "FooterWhatsappActive": true,
+    "FooterWhatsappNumber": "11963697271",
+    "FooterInstagramActive": true,
+    "FooterInstagramUser": "techunionti",
+    "FooterFacebookActive": true,
+    "FooterFacebookUser": "techunionti",
+    "FooterTechsappActive": true,
+    "FooterTechsappLink": "https://techgourmet.com.br/techsapppadrao",
+    "FooterTelefoneActive": false,
+    "FooterTelefoneNumber": "11963697271",
+    "FooterTwitterActive": false,
+    "FooterTwitterUser": "TechUnion_TI",
+    "FooterYoutubeActive": true,
+    "FooterYoutubeUser": "TechUnionSolucoesEmTI"
+  }
+}
