@@ -1,9 +1,25 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Home = () => {
   const [inputValue, setInputValue] = useState("");
   const [searchOnBlur, setSearchOnBlur] = useState("");
   const [searchOnChange, setSearchOnChange] = useState("");
+
+  const handleShow = () => {
+    alert(`Você digitou: ${inputValue}`);
+  };
+
+  // Captura Enter globalmente
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Enter") {
+        handleShow();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [inputValue]); // sempre pega o valor mais recente
 
   return (
     <div className="p-6 max-w-xl mx-auto text-center space-y-8">
@@ -19,7 +35,7 @@ const Home = () => {
           className="border border-gray-300 p-2 rounded w-full"
         />
         <button
-          onClick={() => alert(`Você digitou: ${inputValue}`)}
+          onClick={handleShow}
           className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
         >
           Mostrar Texto
