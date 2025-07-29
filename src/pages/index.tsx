@@ -34,12 +34,7 @@ const Home = () => {
           placeholder="Digite algo aqui"
           className="border border-gray-300 p-2 rounded w-full"
         />
-        <button
-          onClick={handleShow}
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-        >
-          Mostrar Texto
-        </button>
+
       </div>
 
       {/* Campo com onBlur */}
