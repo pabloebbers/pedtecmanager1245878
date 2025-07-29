@@ -1,25 +1,29 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Home = () => {
   const [inputValue, setInputValue] = useState("");
   const [searchOnBlur, setSearchOnBlur] = useState("");
   const [searchOnChange, setSearchOnChange] = useState("");
 
-  const handleShow = () => {
-    alert(`Você digitou: ${inputValue}`);
-  };
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
-  // Captura Enter globalmente
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Enter") {
-        handleShow();
+        buttonRef.current?.click(); // Simula clique real no botão
       }
     };
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [inputValue]); // sempre pega o valor mais recente
+  }, []);
+
+  const handleShow = () => {
+    if (!inputValue.trim()) return; // Ignora se estiver vazio ou só espaços
+
+    alert(`Você digitou: ${inputValue}`);
+    setInputValue(""); // Limpa o campo
+  };
 
   return (
     <div className="p-6 max-w-xl mx-auto text-center space-y-8">
@@ -34,7 +38,13 @@ const Home = () => {
           placeholder="Digite algo aqui"
           className="border border-gray-300 p-2 rounded w-full"
         />
-
+        <button
+          ref={buttonRef}
+          onClick={handleShow}
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Mostrar Texto
+        </button>
       </div>
 
       {/* Campo com onBlur */}
